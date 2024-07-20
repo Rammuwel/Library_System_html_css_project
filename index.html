@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Library</title>
+</head>
+<body>
+   <nav>
+    <div class="nav_bar">
+        <a href="#">Library System</a>
+            <ul>
+                <li><a  href="#">Books</a></li>
+                <li><a href="#Register-form">Register</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </a>
+    </div>
+   </nav>
+   <section  class="main-section">
+   <div class="container">
+    <h2><a href="#">Books</a></h2>
+    <table>
+        <thead>
+           <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Availibity</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="#">Book title 1</a>
+                  <table class="inner-table">
+                    <tr><td>Publication: 2020</td></tr>
+                    <tr><td>Page Count: 300</td></tr>
+                    <tr><td>ISBN: 123-4567890</td></tr>
+                  </table>
+                </td>
+                <td>Author Name</td>
+                <td>Genre 1</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="#">Book title 1</a>
+                  <table class="inner-table">
+                    <tr><td>Publication: 2020</td></tr>
+                    <tr><td>Page Count: 300</td></tr>
+                    <tr><td>ISBN: 123-4567890</td></tr>
+                  </table>
+                </td>
+                <td>Author Name</td>
+                <td>Genre 1</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="#">Book title 1</a>
+                  <table class="inner-table">
+                    <tr><td>Publication: 2020</td></tr>
+                    <tr><td>Page Count: 300</td></tr>
+                    <tr><td>ISBN: 123-4567890</td></tr>
+                  </table>
+                </td>
+                <td>Author Name</td>
+                <td>Genre 1</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="#">Book title 1</a>
+                  <table class="inner-table">
+                    <tr><td>Publication: 2020</td></tr>
+                    <tr><td>Page Count: 300</td></tr>
+                    <tr><td>ISBN: 123-4567890</td></tr>
+                  </table>
+                </td>
+                <td>Author Name</td>
+                <td>Genre 1</td>
+                <td>Available</td>
+            </tr>
+        </tbody>
+    </table>
+   </div>
+   </section>
+
+
+   <section class="main-section" id="Register-form">
+            <div class="container">
+                <h2><a href="#">Register Form</a></h2>
+                <form action="#">
+                    <div>
+                        <label for="firstname">Fist Name</label>
+                        <input type="text" name="fname" id="firstname" required>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lname" id="lastname">
+                        <label for="dob">DOB</label>
+                        <input type="date" name="dob" id="dob" required>
+                        <label for="age">Age</label>
+                        <input type="text" name="age" id="age" required>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                        <label for="cpassword">Comfirm Password</label>
+                        <input type="password" name="cpassword" id="cpassword">
+                        <button type="submit">Register</button>
+                    </div>
+                </form>
+            </div>
+   </section>
+</body>
+</html>
